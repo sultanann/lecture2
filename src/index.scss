@@ -1,0 +1,15 @@
+@font-face {
+ font-family: 'MyFont';
+ src:  url('./acooperblack.woff') format('woff');
+       font-weight: 600;
+       font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: $color;}
+h2{color: #fff; font-family: 'MyFont';}
+.img{display:block; width: 100%; height: 300px}
+.img{background: url("./assets/image/1.jpg") no-repeat}
